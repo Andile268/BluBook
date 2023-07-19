@@ -1,0 +1,59 @@
+<div class="column-layout group">
+  <div class="column-layout logo"></div>
+  <div routerLink="/student-view/dashboard1" class="column-layout group_1">
+    <button igxButton="icon" igxRipple class="button">
+      <igx-icon>
+        dashboard
+      </igx-icon>
+    </button>
+    <p class="ig-typography__overline text">
+      Main
+    </p>
+  </div>
+  <div routerLink="/student-view/courses1" class="column-layout group_1">
+    <button igxButton="icon" igxRipple class="button">
+      <igx-icon>
+        school
+      </igx-icon>
+    </button>
+    <p class="ig-typography__overline text">
+      Courses
+    </p>
+  </div>
+  <div routerLink="/student-view/tasks1" class="column-layout group_1">
+    <button igxButton="icon" igxRipple class="button">
+      <igx-icon>
+        assignment_turned_in
+      </igx-icon>
+    </button>
+    <p class="ig-typography__overline text">
+      Tasks
+    </p>
+  </div>
+  <div routerLink="/student-view/request-a-session" class="column-layout group_1">
+    <button igxButton="icon" igxRipple class="button">
+      <igx-icon>
+        assessment
+      </igx-icon>
+    </button>
+    <p class="ig-typography__overline text">
+      Progress
+    </p>
+  </div>
+  <div routerLink="/student-view/my-profile" class="column-layout group_1">
+    <button igxButton="icon" igxRipple class="button">
+      <igx-icon>
+        person
+      </igx-icon>
+    </button>
+    <p class="ig-typography__overline text">
+      Profile
+    </p>
+  </div>
+  <p class="ig-typography__overline text_1">
+    The Blue Book
+  </p>
+</div>
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>

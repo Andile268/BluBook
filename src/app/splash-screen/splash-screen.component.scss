@@ -1,0 +1,66 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.group {
+  background-color: hsla(var(--ig-primary-100));
+  position: relative;
+  width: 1639px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.button {
+  left: 476.68783068783074px;
+  top: 901.8835978835994px;
+  position: absolute;
+  width: 734px;
+  height: max-content;
+}
+.textarea {
+  text-align: center;
+  left: 498.8716931216931px;
+  top: 572.3492063492065px;
+  position: absolute;
+  width: 666px;
+  height: max-content;
+  min-width: min-content;
+}
+.textarea_1 {
+  left: 509px;
+  top: 704.596560846561px;
+  position: absolute;
+  width: 614px;
+  height: max-content;
+  min-width: min-content;
+}
+.image {
+  object-fit: cover;
+  left: 545.1283068783067px;
+  top: 40px;
+  position: absolute;
+  width: 505px;
+  height: 344px;
+  min-width: 0;
+  min-height: 0;
+}
+.h1 {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  left: 404.33597883597884px;
+  top: 468.28571428571445px;
+  position: absolute;
+  width: 848px;
+  height: max-content;
+  min-width: min-content;
+}
+.h4 {
+  left: 911px;
+  top: 522.4854497354496px;
+  position: absolute;
+  width: 261px;
+  height: max-content;
+  min-width: min-content;
+}
