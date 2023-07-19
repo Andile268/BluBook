@@ -1,0 +1,407 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  background-color: hsla(var(--ig-primary-100));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  margin: 20px;
+  padding: 16px;
+  min-width: 100px;
+  min-height: 100px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.row-layout {
+  display: flex;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  top: 40px;
+  position: relative;
+  width: 1045px;
+  height: 94px;
+  min-width: 50px;
+  min-height: 50px;
+  align-self: center;
+  flex-shrink: 0;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  top: 40px;
+  position: relative;
+  width: 1028px;
+  height: 94px;
+  min-width: 50px;
+  min-height: 50px;
+  align-self: center;
+  flex-shrink: 0;
+}
+.group_3 {
+  background-color: hsla(var(--ig-primary-100));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  width: 25%;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.side-panel {
+  background-color: transparent;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  overflow: auto;
+  position: relative;
+  padding: 32px;
+  min-width: 320px;
+  flex-shrink: 0;
+}
+.group_4 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+}
+.group_5 {
+  background-image: url("/assets/avatar-cont.svg");
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 24px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.group_6 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_7 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_8 {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  padding: 24px 0;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_9 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  width: 180px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_10 {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_11 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+}
+.group_12 {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_13 {
+  background-color: transparent;
+  border-color: hsla(var(--ig-gray-300));
+  border-width: 1px 0px 0px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  padding: 24px 0 0;
+  min-width: 50px;
+  flex-shrink: 0;
+}
+.group_14 {
+  border-color: hsla(var(--ig-primary-500));
+  border-width: 0px 0px 0px 5px;
+  border-style: solid;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 8px 0 0;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_15 {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 0 12px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_16 {
+  border-color: hsla(var(--ig-success-500));
+  border-width: 0px 0px 0px 5px;
+  border-style: solid;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 8px 0 0;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_17 {
+  border-color: hsla(var(--ig-info-500));
+  border-width: 0px 0px 0px 5px;
+  border-style: solid;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 8px 0 0;
+  min-width: 50px;
+  min-height: 50px;
+}
+.rating {
+  top: 80px;
+  position: relative;
+  margin: 50px;
+  width: max-content;
+  height: max-content;
+  align-self: center;
+}
+.button {
+  top: 150px;
+  position: relative;
+  width: 572px;
+  height: max-content;
+  align-self: center;
+}
+.checkbox {
+  width: max-content;
+  height: max-content;
+}
+.h3 {
+  text-align: center;
+  z-index: 1;
+  top: 20px;
+  position: sticky;
+  margin: 20px;
+  width: 401px;
+  height: max-content;
+  min-width: min-content;
+}
+.text {
+  bottom: 10px;
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  align-self: center;
+}
+.h3_1 {
+  text-align: center;
+  z-index: 1;
+  top: 20px;
+  position: sticky;
+  margin: 20px;
+  width: 375px;
+  height: max-content;
+  min-width: min-content;
+}
+.icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.hyperlink {
+  color: hsla(var(--ig-info-500));
+  left: 15px;
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  align-self: center;
+  flex-shrink: 0;
+}
+.icon_1 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  left: 30px;
+  position: relative;
+  align-self: center;
+}
+.text_1 {
+  left: 40px;
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  align-self: center;
+}
+.h3_2 {
+  text-align: center;
+  z-index: 1;
+  top: 20px;
+  position: sticky;
+  margin: 20px;
+  width: 301px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_2 {
+  left: 100px;
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  align-self: center;
+}
+.h3_3 {
+  text-align: center;
+  z-index: 1;
+  top: 20px;
+  position: sticky;
+  margin: 20px;
+  width: 274px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_3 {
+  left: 140px;
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  align-self: center;
+}
+.h3_4 {
+  text-align: center;
+  z-index: 1;
+  top: 20px;
+  position: sticky;
+  margin: 20px;
+  width: 321px;
+  height: max-content;
+  min-width: min-content;
+}
+.h1 {
+  color: hsla(var(--ig-gray-900));
+  bottom: 600px;
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  align-self: center;
+}
+.image {
+  object-fit: cover;
+  border-radius: 100px;
+  margin: 20px 0 24px;
+  width: 140px;
+  height: 140px;
+  min-width: 0;
+  min-height: 0;
+  flex-shrink: 0;
+}
+.content {
+  height: max-content;
+  min-width: min-content;
+}
+.text_4 {
+  color: hsla(var(--ig-secondary-500));
+  height: max-content;
+  min-width: min-content;
+}
+.image_1 {
+  object-fit: cover;
+  width: 70px;
+  min-width: 70px;
+}
+.h6 {
+  margin: 0 4px 0 0;
+  height: max-content;
+  min-width: min-content;
+}
+.h6_1 {
+  color: hsla(var(--ig-gray-600));
+  height: max-content;
+  min-width: min-content;
+}
+.text_5 {
+  color: hsla(var(--ig-gray-600));
+  margin: 0 0 16px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_6 {
+  width: 207px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_7 {
+  color: hsla(var(--ig-gray-700));
+  height: max-content;
+  min-width: min-content;
+}
+.list {
+  right: 200px;
+  left: 90px;
+  position: relative;
+  height: max-content;
+  flex-shrink: 0;
+}

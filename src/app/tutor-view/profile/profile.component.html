@@ -1,0 +1,182 @@
+<div class="column-layout group">
+  <igc-rating label="Current Rating" [(ngModel)]="value" size="large" class="rating"></igc-rating>
+  <div class="row-layout group_1">
+    <h3 class="h3">
+      Name &amp; Surname
+    </h3>
+    <p class="text">
+      Alan Carter
+    </p>
+  </div>
+  <div class="row-layout group_1">
+    <h3 class="h3_1">
+      Contact Details
+    </h3>
+    <igx-icon class="icon">
+      mail
+    </igx-icon>
+    <a target="_blank" class="ig-typography__body-1 hyperlink">
+      unihackteam8@outlook.com
+    </a>
+    <igx-icon class="icon_1">
+      phone
+    </igx-icon>
+    <p class="text_1">
+      078 938 6233
+    </p>
+  </div>
+  <div class="row-layout group_2">
+    <h3 class="h3_2">
+      Institution 
+    </h3>
+    <p class="text_2">
+      University of Cape Town
+    </p>
+  </div>
+  <div class="row-layout group_1">
+    <h3 class="h3_3">
+      Faculty 
+    </h3>
+    <p class="text_3">
+      Science
+    </p>
+  </div>
+  <div class="row-layout group_1">
+    <h3 class="h3_4">
+      My Courses 
+    </h3>
+    <igx-list class="list">
+      <igx-list-item [isHeader]="false">
+        <span igxListThumbnail>
+          <igx-avatar icon="exposure_plus_1" FontSet="Material" shape="circle"></igx-avatar>
+        </span>
+        <span igxListLineTitle>MAM123</span>
+      </igx-list-item>
+      <igx-list-item [isHeader]="false">
+        <span igxListThumbnail>
+          <igx-avatar icon="computer" FontSet="Material" shape="circle"></igx-avatar>
+        </span>
+        <span igxListLineTitle>CSC 1015</span>
+      </igx-list-item>
+      <igx-list-item [isHeader]="false">
+        <span igxListThumbnail>
+          <igx-avatar icon="poll" FontSet="Material" shape="circle"></igx-avatar>
+        </span>
+        <span igxListLineTitle>STA 1000</span>
+      </igx-list-item>
+      <igx-list-item [isHeader]="false">
+        <span igxListThumbnail>
+          <igx-avatar icon="public" FontSet="Material" shape="circle"></igx-avatar>
+        </span>
+        <span igxListLineTitle>PHY 2003</span>
+      </igx-list-item>
+    </igx-list>
+  </div>
+  <h1 class="h1">
+    My Space 
+  </h1>
+  <button igxButton="raised" igxRipple class="button">
+    UPDATE DETAILS
+  </button>
+</div>
+<div class="column-layout group_3">
+  <div class="column-layout side-panel">
+    <div class="column-layout group_4">
+      <div class="row-layout group_5">
+        <img src="/assets/Avatar9.png" class="image" />
+      </div>
+      <div class="column-layout group_6">
+        <h5 class="content">
+          Alan Carter
+        </h5>
+        <p class="ig-typography__subtitle-2 text_4">
+          Level 3
+        </p>
+      </div>
+    </div>
+    <div class="column-layout group_7">
+      <div class="column-layout group_8">
+        <div class="row-layout group_9">
+          <img src="/assets/ranking.svg" class="image_1" />
+          <div class="column-layout group_10">
+            <div class="row-layout group_11">
+              <h6 class="h6">
+                89
+              </h6>
+              <h6 class="h6_1">
+                / 100
+              </h6>
+            </div>
+            <p class="ig-typography__overline content">
+              Ranking
+            </p>
+          </div>
+        </div>
+        <div class="row-layout group_9">
+          <img src="/assets/courses.svg" class="image_1" />
+          <div class="column-layout group_10">
+            <div class="row-layout group_11">
+              <h6 class="h6">
+                4
+              </h6>
+            </div>
+            <p class="ig-typography__overline content">
+              MY COURSES
+            </p>
+          </div>
+        </div>
+        <div class="row-layout group_9">
+          <img src="/assets/tasks.svg" class="image_1" />
+          <div class="column-layout group_12">
+            <div class="row-layout group_11">
+              <h6 class="h6">
+                6
+              </h6>
+            </div>
+            <p class="ig-typography__overline content">
+              CERTIFICATIONS
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column-layout group_13">
+      <p class="ig-typography__subtitle-2 text_5">
+        Upcoming Tasks
+      </p>
+      <div class="row-layout group_14">
+        <div class="column-layout group_15">
+          <p class="ig-typography__subtitle-2 text_6">
+            Build cards in Figma
+          </p>
+          <p class="ig-typography__caption text_7">
+            Due: Tomorrow
+          </p>
+        </div>
+        <igx-checkbox class="checkbox"></igx-checkbox>
+      </div>
+      <div class="row-layout group_16">
+        <div class="column-layout group_15">
+          <p class="ig-typography__subtitle-2 content">
+            CSC1015 with Sasha 
+          </p>
+          <p class="ig-typography__caption text_7">
+            Due: Aug 5th
+          </p>
+        </div>
+        <igx-checkbox class="checkbox"></igx-checkbox>
+      </div>
+      <div class="row-layout group_17">
+        <div class="column-layout group_15">
+          <p class="ig-typography__subtitle-2 content">
+            MAM123 with Benny
+          </p>
+          <p class="ig-typography__caption text_7">
+            Due: Aug 7th
+          </p>
+        </div>
+        <igx-checkbox class="checkbox"></igx-checkbox>
+      </div>
+    </div>
+  </div>
+</div>
